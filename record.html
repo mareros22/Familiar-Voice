@@ -35,6 +35,29 @@
         <button class="test"id=stopRecord disabled>Stop</button>
     </p>
     <audio id=recordedAudio></audio>
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCYRksZL1ZxMpnewRyl9oTOKSnxWCsz7Ec",
+    authDomain: "familiar-voice.firebaseapp.com",
+    projectId: "familiar-voice",
+    storageBucket: "familiar-voice.appspot.com",
+    messagingSenderId: "675716996911",
+    appId: "1:675716996911:web:161bce3e32266e58e74bda",
+    measurementId: "G-WF5QBWV43C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <script src="script.js"></script>
 </body>
 
