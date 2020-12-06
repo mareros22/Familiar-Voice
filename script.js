@@ -35,7 +35,12 @@ stopRecord.onclick = e => {
   record.style.backgroundColor = "red"
   rec.stop();
 }
-
+audio1.onclick = e => {
+ console.log("I was clicked")
+  
+  
+  
+}
 
       /*  record.onclick = e => {
           console.log('I was clicked')
