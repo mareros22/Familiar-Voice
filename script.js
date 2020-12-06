@@ -37,7 +37,9 @@ stopRecord.onclick = e => {
 }
 audio1.onclick = e => {
  console.log("I was clicked")
-  
+  recordedAudio.src = //here we link to the database
+  recordedAudio.controls=true;
+  recordedAudio.autoplay=false;
   
   
 }
