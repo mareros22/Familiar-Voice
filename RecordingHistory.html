@@ -2,44 +2,20 @@
 <html>
 
 <head>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
-    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Familiar Voice</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
+
 <body>
     <ul class="nav_links">
         <li><a href="Home.html">Home</a></li>
         <li><a href="RecordingHistory.html">RecordingHistory</a></li>
         <li><a href="record.html">Record</a></li>
         </li>
-    </ul>
-    </nav>
+        </ul>
+        </nav>
     </div>
 
 
@@ -48,11 +24,14 @@
     <audio id="recordedAudio"></audio>
     //<table id="recordingtable">
         //if we decide to use a table to hold recordings this is here
+        <tr><td><button id=audio1>Recording 1</button><td></tr>
+        
+    //</table>
 
-        //</table>
+<audio id=audioPlayback></audio>
 
 
-
+    
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
 
