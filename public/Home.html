@@ -2,31 +2,59 @@
 <html>
 
 <head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float:left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Familiar Voice</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="wrapper">
-        <nav class="navbar">
-            <img class=<ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="RecordingHistory.html">RecordingHistory</a></li>
-            </li>
-            </ul>
-            </nav>
-            </div>
+    <ul class="nav_links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="RecordingHistory.html">RecordingHistory</a></li>
+        <li><a href="record.html">Record</a></li>
+        </li>
+    </ul>
+    </a>
+    </nav>
+    <header>
 
+    </header>
+    </div>
+    </nav>
+    </nav>
+    <div class="center">
+        <h1> Welcome to Familiar Voice</h1>
+        <p>A platform that allows users to upload recordings of themselves reading books, for their loved ones to
+            access.</p>
+        <h2> Create a New Voice!</h2>
+        <div> <button class="record" onclick="document.location='record.html'">Start Recording!</button> </div>
+    </div>
+</body>
 
-        </nav>
-        <div class="center">
-            <h1> Welcome to Familiar Voice</h1>
-            <h2> Create a New Voice!</h2>
-            <div>
-                <h3>Our Vision</h3>
-                <p>A platform that allows users to upload recordings of themselves reading books, for their loved ones to access.</p>
-                <button onclick="document.location='record.html'">Start Recording!</button>
-            </div>
-        </div>
+</html>
